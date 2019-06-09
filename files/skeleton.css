@@ -55,10 +55,10 @@ body {
   line-height: 2.3;
   font-weight: 400;
   font-family: "Georgia", "Times New Roman", sans-serif;
-  text-shadow: 0px 0px 10px #343477;
-  color: #FFF;
+  text-shadow: 0px 0px 10px white;
+  color: white;
   overscroll-behavior: none;
-  background: url("libro.jpg") no-repeat center center fixed;
+  background: url("libro-oscuro.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -111,11 +111,11 @@ p {
 /* Links and Selection
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #FFF;
-  text-decoration: underline wavy #8cff66}
+  color: inherit;
+  text-decoration: underline wavy}
 
 a:hover {
-  color: #8cff66;
+  color: rgba(128, 0, 32, 1.0);
   transition: 1s}
 
 
